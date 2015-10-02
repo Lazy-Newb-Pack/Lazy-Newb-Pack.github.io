@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>{% if page.title %}{{page.title}} | {% endif %}Dwarf Fortress Lazy Newb Pack</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/cayman.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/site.css" media="screen">
+  </head>
+  <body>
+{{content}}
+
+{% if page.footer != false %}
+    <section class="main-content">
+      <footer class="site-footer">
+        <span class="site-footer-credits"><a href="/credits.html">LNP Credits</a>
+        &bull;
+        Hosted by <a href="https://pages.github.com">GitHub Pages</a>
+        &bull;
+        <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+    </section>
+{% endif %}
+
+  </body>
+</html>

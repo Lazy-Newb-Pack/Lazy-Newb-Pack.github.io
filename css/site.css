@@ -1,0 +1,16 @@
+img.img-circle {
+    border-radius: 50%;
+}
+
+.btn.btn-lnp {
+    word-wrap: break-word;
+    max-width: 200px;
+    height: 100%;
+}
+
+.btn.btn-lnp img.img-circle {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 10px auto;
+    display: block;
+}

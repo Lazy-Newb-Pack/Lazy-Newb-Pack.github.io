@@ -1,0 +1,22 @@
+---
+layout: base
+---
+<section class="page-header">
+  <h1 class="project-name">Lazy-newb-pack-linux</h1>
+  <h2 class="project-tagline">A package to get people started with Dwarf Fortress<br/>Simply download and start playing Dwarf Fortress with all your favorite utilities and tilesets</h2>
+  <div style="">
+    {% for pack in site.data.packs %}
+      <a href="/{{pack.id}}.html" class="btn btn-lnp">
+        {{ pack.platform }}
+        <img class="img-circle" src="{{ pack.author_img }}" alt="{{ pack.author_name }}"/>
+        {{ pack.name }}
+      </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="main-content">
+
+
+</section>
+
