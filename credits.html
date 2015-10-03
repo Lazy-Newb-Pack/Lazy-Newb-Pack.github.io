@@ -4,4 +4,20 @@ title: Credits
 ---
 <section class="main-content">
   <h1>Credits &amp; Special Thanks</h1>
+  <ul>
+    {% for c in site.data.credits %}
+      <li>
+      {% if c.url %}
+        <a href=
+        {% if c.url == "github" %}
+          "https://github.com/{{c.name}}"
+        {% else %}
+          "{{c.url}}"
+        {% endif %}
+        >{{c.name}}</a>:
+      {% else %}
+        {{c.name}}:
+      {% endif %}
+      {{c.desc}}
+    {% endfor %}
 </section>
