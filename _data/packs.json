@@ -5,7 +5,8 @@
         "name": "PeridexisErrant's Starter Pack",
         "author_name": "PeridexisErrant",
         "author_img": "http://i.imgur.com/8dkNGle.png",
-        "bay12_thread": "126076"
+        "bay12_thread": "126076",
+        "url": "http://www.bay12forums.com/smf/index.php?topic=126076"
     },
     {
         "id": "mac-fr",
@@ -13,7 +14,8 @@
         "name": "Fricy's MacNewbie Pack",
         "author_name": "Fricy",
         "author_img": "http://i.imgur.com/ZKCIvc4.png",
-        "bay12_thread": "128960"
+        "bay12_thread": "128960",
+        "url": "http://www.bay12forums.com/smf/index.php?topic=128960"
     },
     {
         "id": "linux-be",
@@ -21,6 +23,7 @@
         "name": "Beautato's Linux Pack",
         "author_name": "Beautato",
         "author_img": "http://i.imgur.com/8dd9YLs.jpg",
-        "bay12_thread": "128960"
+        "bay12_thread": "128960",
+        "url": "http://lazynewbpack.com/linux/"
     }
 ]
