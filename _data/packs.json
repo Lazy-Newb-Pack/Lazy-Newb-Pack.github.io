@@ -20,10 +20,10 @@
     {
         "id": "linux-be",
         "platform": "Linux",
-        "name": "Beautato's Linux Pack",
-        "author_name": "Beautato",
-        "author_img": "http://i.imgur.com/8dd9YLs.jpg",
-        "bay12_thread": "128960",
-        "url": "http://lazynewbpack.com/linux/"
+        "name": "(See Dwarf Fortress Wiki)",
+        "author_name": "n/a",
+        "author_img": "https://www.dwarffortresswiki.org/images/d/d4/WikiLogo_4fa619.png",
+        "bay12_thread": "n/a",
+        "url": "https://www.dwarffortresswiki.org/index.php/Utility:Lazy_Newb_Pack"
     }
 ]
